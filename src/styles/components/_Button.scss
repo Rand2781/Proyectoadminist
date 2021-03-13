@@ -1,0 +1,23 @@
+.Button-Map{
+  background: none;
+  display: inline-grid;
+  align-items: center;
+  border-radius: 5px;
+  grid-template-columns: 36px 1fr;
+  grid-gap: 8px;
+  padding: 3px 7px;
+  border: 2px solid $Light;
+  cursor: pointer;
+  transition: .3s all;
+  i{
+    color: $Light;
+    transition: .3s all;
+  }
+  p{
+    font-weight: bold;
+    font-size: 14px;
+    color: $Light;
+    line-height: 17px;
+    transition: .3s all;
+  }
+}
